@@ -67,6 +67,7 @@
                     <li class="nav-item"><a class="nav-link" href="#services">Compétences</a></li>
                     <li class="nav-item"><a class="nav-link" href="#parcours">Parcours</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">Projets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
                     <li class="nav-item"><a class="nav-link" href="#formations">Formations</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
@@ -470,6 +471,103 @@
             </div>
             <div class="text-center mt-5" data-aos="fade-up">
                 <a href="https://github.com/korneevscp?tab=repositories" target="_blank" rel="noopener" class="btn btn-outline-brand">Voir tous les repos sur GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="section-padding">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <span class="section-label">Blog</span>
+                <h2>Analyses de CVE Windows &amp; Linux</h2>
+                <p>Étude technique de vulnérabilités marquantes : fonctionnement, impact, correction et détection.</p>
+            </div>
+            <div class="portfolio-category-label" data-aos="fade-up">CVE Windows</div>
+            <div class="portfolio-grid">
+                <a class="portfolio-card blog-card" href="blog/cve-2021-34527-printnightmare.html" data-os="windows" data-aos="fade-up" data-aos-delay="50">
+                    <div class="portfolio-card-body">
+                        <span class="portfolio-card-badge">Windows · CVSS 8.8</span>
+                        <div class="portfolio-card-tag">CVE-2021-34527 · 1 juillet 2021</div>
+                        <div class="portfolio-card-title">PrintNightmare</div>
+                        <div class="portfolio-card-sub">Le service Print Spooler permet à un utilisateur authentifié de charger un pilote arbitraire, donc une DLL exécutée en tant que SYSTEM.</div>
+                        <span class="portfolio-card-link">Lire l'article</span>
+                    </div>
+                </a>
+                <a class="portfolio-card blog-card" href="blog/cve-2020-1472-zerologon.html" data-os="windows" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card-body">
+                        <span class="portfolio-card-badge">Windows · CVSS 10.0</span>
+                        <div class="portfolio-card-tag">CVE-2020-1472 · 11 août 2020</div>
+                        <div class="portfolio-card-title">Zerologon</div>
+                        <div class="portfolio-card-sub">Défaut cryptographique dans le protocole Netlogon permettant à un attaquant du réseau local de prendre le contrôle d&#x27;un contrôleur de domaine.</div>
+                        <span class="portfolio-card-link">Lire l'article</span>
+                    </div>
+                </a>
+                <a class="portfolio-card blog-card" href="blog/cve-2020-0601-curveball.html" data-os="windows" data-aos="fade-up" data-aos-delay="150">
+                    <div class="portfolio-card-body">
+                        <span class="portfolio-card-badge">Windows · CVSS 8.1</span>
+                        <div class="portfolio-card-tag">CVE-2020-0601 · 14 janvier 2020</div>
+                        <div class="portfolio-card-title">CurveBall</div>
+                        <div class="portfolio-card-sub">Validation incomplète des certificats à courbe elliptique dans CryptoAPI, permettant de forger des certificats acceptés comme légitimes.</div>
+                        <span class="portfolio-card-link">Lire l'article</span>
+                    </div>
+                </a>
+                <a class="portfolio-card blog-card" href="blog/cve-2017-0144-eternalblue.html" data-os="windows" data-aos="fade-up" data-aos-delay="50">
+                    <div class="portfolio-card-body">
+                        <span class="portfolio-card-badge">Windows · CVSS 8.1</span>
+                        <div class="portfolio-card-tag">CVE-2017-0144 · 14 mars 2017</div>
+                        <div class="portfolio-card-title">EternalBlue</div>
+                        <div class="portfolio-card-sub">Débordement de mémoire dans le serveur SMBv1 de Windows, exploitable sans authentification sur le port 445. Utilisé par WannaCry et NotPetya.</div>
+                        <span class="portfolio-card-link">Lire l'article</span>
+                    </div>
+                </a>
+            </div>
+            <div class="portfolio-category-label" data-aos="fade-up">CVE Linux</div>
+            <div class="portfolio-grid">
+                <a class="portfolio-card blog-card" href="blog/cve-2024-3094-xz-backdoor.html" data-os="linux" data-aos="fade-up" data-aos-delay="50">
+                    <div class="portfolio-card-body">
+                        <span class="portfolio-card-badge">Linux · CVSS 10.0</span>
+                        <div class="portfolio-card-tag">CVE-2024-3094 · 29 mars 2024</div>
+                        <div class="portfolio-card-title">Porte dérobée xz</div>
+                        <div class="portfolio-card-sub">Code malveillant inséré dans les archives de xz 5.6.0 et 5.6.1, ciblant l&#x27;authentification d&#x27;OpenSSH.</div>
+                        <span class="portfolio-card-link">Lire l'article</span>
+                    </div>
+                </a>
+                <a class="portfolio-card blog-card" href="blog/cve-2022-0847-dirty-pipe.html" data-os="linux" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card-body">
+                        <span class="portfolio-card-badge">Linux · CVSS 7.8</span>
+                        <div class="portfolio-card-tag">CVE-2022-0847 · 7 mars 2022</div>
+                        <div class="portfolio-card-title">Dirty Pipe</div>
+                        <div class="portfolio-card-sub">Indicateur de tube non initialisé permettant d&#x27;écraser le contenu de fichiers en lecture seule via le cache de pages.</div>
+                        <span class="portfolio-card-link">Lire l'article</span>
+                    </div>
+                </a>
+                <a class="portfolio-card blog-card" href="blog/cve-2021-4034-pwnkit.html" data-os="linux" data-aos="fade-up" data-aos-delay="150">
+                    <div class="portfolio-card-body">
+                        <span class="portfolio-card-badge">Linux · CVSS 7.8</span>
+                        <div class="portfolio-card-tag">CVE-2021-4034 · 25 janvier 2022</div>
+                        <div class="portfolio-card-title">PwnKit</div>
+                        <div class="portfolio-card-sub">Lecture et écriture hors limites dans pkexec lorsque argc vaut zéro, donnant root sur la quasi-totalité des distributions.</div>
+                        <span class="portfolio-card-link">Lire l'article</span>
+                    </div>
+                </a>
+                <a class="portfolio-card blog-card" href="blog/cve-2016-5195-dirty-cow.html" data-os="linux" data-aos="fade-up" data-aos-delay="50">
+                    <div class="portfolio-card-body">
+                        <span class="portfolio-card-badge">Linux · CVSS 7.8</span>
+                        <div class="portfolio-card-tag">CVE-2016-5195 · 19 octobre 2016</div>
+                        <div class="portfolio-card-title">Dirty COW</div>
+                        <div class="portfolio-card-sub">Condition de course dans la gestion du copy-on-write du noyau, permettant d&#x27;écrire dans des fichiers en lecture seule.</div>
+                        <span class="portfolio-card-link">Lire l'article</span>
+                    </div>
+                </a>
+                <a class="portfolio-card blog-card" href="blog/cve-2014-6271-shellshock.html" data-os="linux" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card-body">
+                        <span class="portfolio-card-badge">Linux · CVSS 9.8</span>
+                        <div class="portfolio-card-tag">CVE-2014-6271 · 24 septembre 2014</div>
+                        <div class="portfolio-card-title">Shellshock</div>
+                        <div class="portfolio-card-sub">Bash exécute les commandes placées après une définition de fonction dans une variable d&#x27;environnement, exposant CGI, DHCP et SSH.</div>
+                        <span class="portfolio-card-link">Lire l'article</span>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
